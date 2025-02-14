@@ -17,5 +17,17 @@ public class functions {
         //delete
         sb.delete(2, 3);
         System.out.println(sb);
+
+        //append
+        sb.append(' ');
+        sb.append('A');
+        sb.append('m');
+        sb.append('b');
+        sb.append('a');
+        sb.append('t');
+        sb.append('k');
+        sb.append('a');
+        sb.append('r');
+        System.out.println(sb);
     }
 }
