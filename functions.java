@@ -13,5 +13,9 @@ public class functions {
         //insert
         sb.insert(3, 'd');
         System.out.println(sb);
+
+        //delete
+        sb.delete(2, 3);
+        System.out.println(sb);
     }
 }
