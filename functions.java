@@ -9,5 +9,9 @@ public class functions {
         //setCharAt()
         sb.setCharAt(0, 'S');
         System.out.println(sb);
+
+        //insert
+        sb.insert(3, 'd');
+        System.out.println(sb);
     }
 }
